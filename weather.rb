@@ -9,24 +9,15 @@
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 def location(weather)
   weather = {
-    :Sydney => 2000,
-    :Athens => 2004,
-    :Beiling => 2008,
-    :London => 2012
+    :city => "New York",
+ 	:description => "Partly Cloudy",
+ 	:temperature_farenheit => 66.3
   }
-  weather.each do |place, year|
-  puts "The #{place} summer olympics took place in #{year}."
+  weather.each do |city, description, temperature_farenheit|
+  puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
 end
 end
 puts location(weather)
-def location(weather)
-	weather = {
- 	:city => "New York",
- 	:description => "Partly Cloudy",
- 	:temperature_farenheit => 66.3
- }
-end
-location(weather)
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
