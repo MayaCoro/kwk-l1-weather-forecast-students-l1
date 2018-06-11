@@ -7,6 +7,18 @@
 # }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
+def iterate_through_hash
+#   summer_olympics = {
+#     :Sydney => 2000,
+#     :Athens => 2004,
+#     :Beiling => 2008,
+#     :London => 2012
+#   }
+#   summer_olympics.each do |place, year|
+#   puts "The #{place} summer olympics took place in #{year}."
+# end
+# end
+# puts iterate_through_hash
 def location(weather)
 	weather = {
  	:city => "New York",
