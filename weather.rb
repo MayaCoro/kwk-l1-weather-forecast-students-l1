@@ -17,7 +17,6 @@ def weather
   weather.each do |city, description, temperature_farenheit|
   puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
 end
-end
 puts weather
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
